@@ -8,7 +8,9 @@ from torch.utils.data import DataLoader, TensorDataset
 
 import matplotlib.pyplot as plt
 
-from .model import create_model
+from corruptmnist_classifier.model import Model
+from corruptmnist_classifier.data import MyDataset
+from corruptmnist_classifier.model import create_model
 
 
 def train(
@@ -102,12 +104,10 @@ def train(
 
 if __name__ == "__main__":
     typer.run(train)
-from corruptmnist_classifier.model import Model
-from corruptmnist_classifier.data import MyDataset
 
 def train():
-    dataset = MyDataset("data/raw")
-    model = Model()
+    MyDataset("data/raw")
+    Model()
     # add rest of your training code here
 
 if __name__ == "__main__":
