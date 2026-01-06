@@ -102,13 +102,9 @@ def train(
     print(f"Saved training loss plot to {fig_fp}")
 
 
-if __name__ == "__main__":
+def main() -> None:
     typer.run(train)
 
-def train():
-    MyDataset("data/raw")
-    Model()
-    # add rest of your training code here
 
 if __name__ == "__main__":
-    train()
+    main()
