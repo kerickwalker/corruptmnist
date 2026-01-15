@@ -11,7 +11,6 @@ Reproducability
 
 Continuous Integration
 - Github Actions
-- Pre-commit
 
 Cloud
 - Docker image build and storage with GCP Artifact Registry
@@ -21,3 +20,8 @@ Cloud
 Monitoring
 
 Scalability
+
+Clean Coding Practice
+- linting with ruff
+- pre-commit hooks
+- type-checking with mypy
