@@ -1,0 +1,102 @@
+outs:
+- hash: md5
+  path: corruptmnist_v1
+  files:
+  - relpath: test_images.pt
+    md5: dbaef582b7c62889340e79e408b1eb81
+    size: 15680759
+    cloud:
+      gcs:
+        etag: 08aee29d85889a92031001
+        version_id: '1768910209118510'
+  - relpath: test_target.pt
+    md5: 07a46d22581416c598f8b052816e3f56
+    size: 80759
+    cloud:
+      gcs:
+        etag: 08ef88f582889a92031001
+        version_id: '1768910204257391'
+  - relpath: train_images_0.pt
+    md5: 45a5787aa4d44cc51bbc31f963513b05
+    size: 15680768
+    cloud:
+      gcs:
+        etag: 08a58eed85889a92031001
+        version_id: '1768910210418469'
+  - relpath: train_images_1.pt
+    md5: a5c62febd0bb8c80df768b7c208a9d27
+    size: 15680768
+    cloud:
+      gcs:
+        etag: 08e0f1b387889a92031001
+        version_id: '1768910213675232'
+  - relpath: train_images_2.pt
+    md5: f20c7ad31a03213f3fa2ae2f03e3085b
+    size: 15680768
+    cloud:
+      gcs:
+        etag: 08b699cc87889a92031001
+        version_id: '1768910214073526'
+  - relpath: train_images_3.pt
+    md5: c57ae96d4e686648971e65d738f0332a
+    size: 15680768
+    cloud:
+      gcs:
+        etag: 0888e1ad87889a92031001
+        version_id: '1768910213574792'
+  - relpath: train_images_4.pt
+    md5: 6d70cc8f6423c00671c2aa64fb139d67
+    size: 15680768
+    cloud:
+      gcs:
+        etag: 08f6dede83889a92031001
+        version_id: '1768910205988726'
+  - relpath: train_images_5.pt
+    md5: 826e31e8e2fd6296dd1ad1d4cbbf0c55
+    size: 15680768
+    cloud:
+      gcs:
+        etag: 08edf6c987889a92031001
+        version_id: '1768910214036333'
+  - relpath: train_target_0.pt
+    md5: e4a6683c59059f14cef44dfec30cdc21
+    size: 480768
+    cloud:
+      gcs:
+        etag: 088bc48983889a92031001
+        version_id: '1768910204592651'
+  - relpath: train_target_1.pt
+    md5: 89b2d0ceabecbb618b05e536eade36fe
+    size: 480768
+    cloud:
+      gcs:
+        etag: 08b69c8983889a92031001
+        version_id: '1768910204587574'
+  - relpath: train_target_2.pt
+    md5: b6eba9a036e61275df9d46f11acd0541
+    size: 480768
+    cloud:
+      gcs:
+        etag: 08d6ba8983889a92031001
+        version_id: '1768910204591446'
+  - relpath: train_target_3.pt
+    md5: a27f99f24f43d6c653e1244b21d80de0
+    size: 480768
+    cloud:
+      gcs:
+        etag: 08deb08983889a92031001
+        version_id: '1768910204590174'
+  - relpath: train_target_4.pt
+    md5: b1b55f6a9baa7356bf87430775e37aa6
+    size: 480768
+    cloud:
+      gcs:
+        etag: 08a4a38983889a92031001
+        version_id: '1768910204588452'
+  - relpath: train_target_5.pt
+    md5: b44e2cd89f6efcbe4eb88253da30f327
+    size: 480768
+    cloud:
+      gcs:
+        etag: 08bf818a83889a92031001
+        version_id: '1768910204600511'

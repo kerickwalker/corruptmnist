@@ -6,8 +6,12 @@ manual_test/
 # other local dev info
 .vscode/
 
-# data directory - too large for version control
-data/
+# Ignore all data files
+/data/**
+
+# But track DVC metadata
+!/data/**/
+!/data/**/*.dvc
 
 # Mac OS-specific storage files
 .DS_Store
