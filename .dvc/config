@@ -1,5 +1,7 @@
 [core]
-    remote = remote_storage
+    remote = gcs
 ['remote "remote_storage"']
-    url = gs://mlops_datat_bucket/
+    url = gs://corruptmnist-data/
+['remote "gcs"']
+    url = gs://corruptmnist-data/
     version_aware = true
