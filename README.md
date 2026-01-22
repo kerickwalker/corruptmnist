@@ -17,7 +17,8 @@ Cloud
 - training with GCP Vertex AI
 - model deployment with Cloud Functions
 
-Monitoring
+Monitoring/Testing
+- application load testing with locust
 
 Scalability
 
